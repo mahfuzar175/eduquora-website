@@ -1,23 +1,25 @@
+import Link from "next/link";
+
 const NavBar = () => {
   const navOptions = (
     <>
       <li>
-        <a>HOME</a>
+        <Link className="hover:bg-red-500 hover:text-white rounded-none" href='/'>Home</Link>
       </li>
       <li>
-        <a>FEATURES</a>
+        <Link className="hover:bg-red-500 hover:text-white rounded-none" href='/features'>FEATURES</Link>
       </li>
       <li>
-        <a>PAGES</a>
+        <Link className="hover:bg-red-500 hover:text-white rounded-none" href='/pages'>PAGES</Link>
       </li>
       <li>
-        <a>COURSES</a>
+        <Link className="hover:bg-red-500 hover:text-white rounded-none" href='/courses'>COURSES</Link>
       </li>
       <li>
-        <a>BLOGS</a>
+        <Link className="hover:bg-red-500 hover:text-white rounded-none" href='/blogs'>BLOGS</Link>
       </li>
       <li>
-        <a>CONTACT US</a>
+        <Link className="hover:bg-red-500 hover:text-white rounded-none" href='/contact'>CONTACT US</Link>
       </li>
     </>
   );
@@ -50,7 +52,7 @@ const NavBar = () => {
               {navOptions}
             </ul>
           </div>
-          <a className="text-3xl font-extrabold">Edu<span className="text-red-500">Quora</span></a>
+          <Link href='/' className="text-3xl font-extrabold">Edu<span className="text-red-500">Quora</span></Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 font-semibold">{navOptions}</ul>
