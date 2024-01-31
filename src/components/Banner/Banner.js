@@ -20,7 +20,7 @@ const Banner = () => {
             </p>
             <div className="flex justify-center items-center gap-4">
             <button className="btn btn-primary border-none text-white rounded-full bg-red-500 hover:bg-red-600">Started Now</button>
-            <button className="btn btn-outline text-white hover:bg-white hover:text-black rounded-full ">Register Now</button>
+            <button className="btn btn-outline text-white hover:bg-white hover:text-black rounded-full">Register Now</button>
             </div>
           </div>
         </div>
