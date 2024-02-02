@@ -53,13 +53,13 @@ const Category = () => {
               Checkout All Categories
             </h2>
             <h1 className="text-7xl font-serif font-bold">
-              Let's Browse All <br /> Categories
+              Let us Browse All <br /> Categories
             </h1>
             <p className="py-4">
               Explore our diverse e-learning platform where learning knows no
               bounds. <br /> Immerse yourself in a vast array of subjects and
               courses by effortlessly navigating <br /> through our
-              user-friendly interface. Let's browse all categories and embark on
+              user-friendly interface. Let us browse all categories and embark on
               a journey <br /> of knowledge tailored to your interests and
               aspirations.
             </p>

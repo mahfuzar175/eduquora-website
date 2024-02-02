@@ -16,7 +16,7 @@ const Banner = () => {
           <div className="max-w-3xl text-white">
             <h1 className={poppins.className="mb-5 text-5xl md:text-8xl font-extrabold"}>Ready To <br />Learn With Us?</h1>
             <p className="mb-5 font-medium text-xl">
-              We're a leading online learning educatioal platform
+              We are a leading online learning educatioal platform
             </p>
             <div className="flex justify-center items-center gap-4">
             <button className="btn btn-primary border-none text-white rounded-full bg-red-500 hover:bg-red-600">Started Now</button>
